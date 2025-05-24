@@ -76,7 +76,7 @@ export default function Header({ currentPage, onPageChange }: HeaderProps) {
             >
               👋
             </motion.div>
-            <h1 className="text-3xl font-bold text-primary-500">هدى</h1>
+            <h1 className="text-3xl font-bold text-[#e4592d]">هدى</h1>
           </motion.div>
 
           {/* Desktop Navigation */}
@@ -87,8 +87,8 @@ export default function Header({ currentPage, onPageChange }: HeaderProps) {
                 onClick={() => onPageChange(item.id)}
                 className={`flex items-center gap-2 px-6 py-3 rounded-full font-semibold transition-all duration-300 ${
                   currentPage === item.id
-                    ? 'bg-primary-500 text-white shadow-lg'
-                    : 'text-gray-700 hover:bg-primary-50 hover:text-primary-600'
+                    ? 'bg-[#e4592d] text-white shadow-lg'
+                    : 'text-[#2a345c] hover:bg-[#e4592d]/10 hover:text-[#e4592d]'
                 }`}
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
@@ -101,15 +101,15 @@ export default function Header({ currentPage, onPageChange }: HeaderProps) {
 
           {/* Mobile Menu Button */}
           <motion.button
-            className="md:hidden p-2 rounded-lg hover:bg-gray-100"
+            className="md:hidden p-2 rounded-lg hover:bg-[#669bbc]/10"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
           >
             {isMobileMenuOpen ? (
-              <X className="w-6 h-6 text-gray-700" />
+              <X className="w-6 h-6 text-[#2a345c]" />
             ) : (
-              <Menu className="w-6 h-6 text-gray-700" />
+              <Menu className="w-6 h-6 text-[#2a345c]" />
             )}
           </motion.button>
         </div>
@@ -121,7 +121,7 @@ export default function Header({ currentPage, onPageChange }: HeaderProps) {
           }`}
           transition={{ duration: 0.3, ease: "easeInOut" }}
         >
-          <div className="flex flex-col gap-2 pt-4 border-t border-gray-200">
+          <div className="flex flex-col gap-2 pt-4 border-t border-[#669bbc]/20">
             {navItems.map((item) => (
               <motion.button
                 key={item.id}
@@ -131,8 +131,8 @@ export default function Header({ currentPage, onPageChange }: HeaderProps) {
                 }}
                 className={`flex items-center gap-3 px-4 py-3 rounded-xl font-semibold transition-all duration-300 ${
                   currentPage === item.id
-                    ? 'bg-primary-500 text-white'
-                    : 'text-gray-700 hover:bg-primary-50 hover:text-primary-600'
+                    ? 'bg-[#e4592d] text-white'
+                    : 'text-[#2a345c] hover:bg-[#e4592d]/10 hover:text-[#e4592d]'
                 }`}
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}

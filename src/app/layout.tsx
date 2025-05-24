@@ -1,4 +1,4 @@
-import type { Metadata } from 'next'
+import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
@@ -12,8 +12,12 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'ar_SA',
   },
-  viewport: 'width=device-width, initial-scale=1',
   robots: 'index, follow',
+}
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
 }
 
 export default function RootLayout({
@@ -31,7 +35,7 @@ export default function RootLayout({
           rel="stylesheet" 
         />
       </head>
-      <body className="font-arabic bg-gradient-orange min-h-screen" suppressHydrationWarning>
+      <body className="font-arabic bg-gradient-primary min-h-screen" suppressHydrationWarning>
         <div className="min-h-screen">
           {children}
         </div>

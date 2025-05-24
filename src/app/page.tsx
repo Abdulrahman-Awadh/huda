@@ -53,10 +53,10 @@ export default function Home() {
             >
               <div className="text-center mb-12">
                 <div className="bg-white/95 backdrop-blur-md rounded-3xl p-8 shadow-xl">
-                  <h1 className="text-4xl font-bold text-primary-500 mb-4">
+                  <h1 className="text-4xl font-bold text-[#e4592d] mb-4">
                     التعلم مع هدى
                   </h1>
-                  <p className="text-gray-600 text-lg">
+                  <p className="text-[#2a345c] text-lg">
                     شاهدوا وتعلموا لغة الإشارة من خلال دروس هدى التفاعلية المصورة
                   </p>
                 </div>
@@ -76,10 +76,10 @@ export default function Home() {
             >
               <div className="text-center mb-12">
                 <div className="bg-white/95 backdrop-blur-md rounded-3xl p-8 shadow-xl">
-                  <h1 className="text-4xl font-bold text-primary-500 mb-4">
+                  <h1 className="text-4xl font-bold text-[#e4592d] mb-4">
                     الموارد القابلة للطباعة
                   </h1>
-                  <p className="text-gray-600 text-lg">
+                  <p className="text-[#2a345c] text-lg">
                     حملوا واطبعوا هذه المواد المفيدة لتعلم لغة الإشارة
                   </p>
                 </div>

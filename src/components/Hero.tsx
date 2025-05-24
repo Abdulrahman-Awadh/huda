@@ -108,7 +108,7 @@ export default function Hero() {
           </motion.h1>
 
           <motion.p 
-            className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed"
+            className="text-xl md:text-2xl text-[#2a345c] mb-8 max-w-3xl mx-auto leading-relaxed"
             variants={itemVariants}
           >
             دليلكم الودود لتعلم لغة الإشارة وبناء جسور التواصل
@@ -123,30 +123,30 @@ export default function Hero() {
               className="flex flex-col items-center gap-2"
               whileHover={{ scale: 1.1 }}
             >
-              <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center">
-                <Heart className="w-8 h-8 text-primary-500" />
+              <div className="w-16 h-16 bg-[#e4592d]/10 rounded-full flex items-center justify-center">
+                <Heart className="w-8 h-8 text-[#e4592d]" />
               </div>
-              <span className="text-sm font-semibold text-gray-600">ودود</span>
+              <span className="text-sm font-semibold text-[#2a345c]">ودود</span>
             </motion.div>
 
             <motion.div 
               className="flex flex-col items-center gap-2"
               whileHover={{ scale: 1.1 }}
             >
-              <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center">
-                <BookOpen className="w-8 h-8 text-primary-500" />
+              <div className="w-16 h-16 bg-[#669bbc]/10 rounded-full flex items-center justify-center">
+                <BookOpen className="w-8 h-8 text-[#669bbc]" />
               </div>
-              <span className="text-sm font-semibold text-gray-600">تعليمي</span>
+              <span className="text-sm font-semibold text-[#2a345c]">تعليمي</span>
             </motion.div>
 
             <motion.div 
               className="flex flex-col items-center gap-2"
               whileHover={{ scale: 1.1 }}
             >
-              <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center">
-                <Users className="w-8 h-8 text-primary-500" />
+              <div className="w-16 h-16 bg-[#a9c686]/10 rounded-full flex items-center justify-center">
+                <Users className="w-8 h-8 text-[#a9c686]" />
               </div>
-              <span className="text-sm font-semibold text-gray-600">شامل</span>
+              <span className="text-sm font-semibold text-[#2a345c]">شامل</span>
             </motion.div>
           </motion.div>
 
@@ -157,7 +157,7 @@ export default function Hero() {
           >
             <motion.button
               className="btn-primary text-lg px-8 py-4"
-              whileHover={{ scale: 1.05, boxShadow: "0 10px 30px rgba(227, 89, 45, 0.3)" }}
+              whileHover={{ scale: 1.05, boxShadow: "0 10px 30px rgba(228, 89, 45, 0.3)" }}
               whileTap={{ scale: 0.95 }}
             >
               ابدأ التعلم الآن
@@ -179,12 +179,12 @@ export default function Hero() {
         className="mt-12 flex flex-col items-center"
         variants={itemVariants}
       >
-        <p className="text-gray-600 mb-4">اكتشف المزيد</p>
+        <p className="text-[#2a345c] mb-4">اكتشف المزيد</p>
         <motion.div
           animate={{ y: [0, 10, 0] }}
           transition={{ duration: 2, repeat: Infinity }}
         >
-          <ArrowDown className="w-6 h-6 text-primary-500" />
+          <ArrowDown className="w-6 h-6 text-[#e4592d]" />
         </motion.div>
       </motion.div>
     </motion.section>

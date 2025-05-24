@@ -1,0 +1,314 @@
+# Blender 4.1.0 MTL File: 'العظام.blend تجربة.blend'
+# www.blender.org
+
+newmtl Material
+Kd 0.000000 0.000000 0.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+Pr 0.500000
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+
+newmtl Material.008
+Kd 0.800000 0.800000 0.800000
+Ks 0.027273 0.027273 0.027273
+Ke 0.000000 0.000000 0.000000
+Ni 2.200000
+d 1.000000
+illum 2
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Pr -s -20.5 -20 -20 هدى/البروجيكت/مشهد ١/Fabric039_4K-PNG/Fabric039_4K-PNG_Roughness.png
+map_Bump -s -20.5 -20 -20 -bm 9.999999 هدى/البروجيكت/مشهد ١/Fabric039_4K-PNG/Fabric039_4K-PNG_NormalGL.png
+
+newmtl Std_Cornea_L.004
+Ks 0.600000 0.600000 0.600000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+Pr 0.552786
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd /Volumes/Extreme SSD/مشاريعي/مشروع التخرج /hda/HDA/HDA.fbm/Std_Cornea_L_Diffuse.jpg
+map_Bump /Volumes/Extreme SSD/مشاريعي/مشروع التخرج /hda/HDA/HDA.fbm/Std_Cornea_L_Normal.png
+
+newmtl Std_Cornea_R.004
+Ks 0.600000 0.600000 0.600000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+Pr 0.552786
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd /Volumes/Extreme SSD/مشاريعي/مشروع التخرج /hda/HDA/HDA.fbm/Std_Cornea_R_Diffuse.jpg
+map_Bump /Volumes/Extreme SSD/مشاريعي/مشروع التخرج /hda/HDA/HDA.fbm/Std_Cornea_R_Normal.png
+
+newmtl Std_Eye_L.004
+Ks 0.600000 0.600000 0.600000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+Pr 0.552786
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd /Volumes/Extreme SSD/مشاريعي/مشروع التخرج /hda/HDA/HDA.fbm/Std_Eye_L_Diffuse.jpg
+map_Bump /Volumes/Extreme SSD/مشاريعي/مشروع التخرج /hda/HDA/HDA.fbm/Std_Eye_L_Normal.png
+
+newmtl Std_Eye_Occlusion_L.004
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+Pr 0.900000
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd /Volumes/Extreme SSD/مشاريعي/مشروع التخرج /hda/HDA/HDA.fbm/Std_Eye_Occlusion_L_Diffuse.jpg
+map_d /Volumes/Extreme SSD/مشاريعي/مشروع التخرج /hda/HDA/HDA.fbm/Std_Eye_Occlusion_R_Opacity.jpg
+
+newmtl Std_Eye_Occlusion_R.004
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+Pr 0.500000
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+
+newmtl Std_Eye_R.004
+Ks 0.600000 0.600000 0.600000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+Pr 0.552786
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd /Volumes/Extreme SSD/مشاريعي/مشروع التخرج /hda/HDA/HDA.fbm/Std_Eye_R_Diffuse.jpg
+map_Bump /Volumes/Extreme SSD/مشاريعي/مشروع التخرج /hda/HDA/HDA.fbm/Std_Eye_R_Normal.png
+
+newmtl Std_Eyelash.004
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+Pr 0.858579
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd /Volumes/Extreme SSD/مشاريعي/مشروع التخرج /hda/HDA/HDA.fbm/Std_Eyelash_Diffuse.jpg
+map_d /Volumes/Extreme SSD/مشاريعي/مشروع التخرج /hda/HDA/HDA.fbm/Std_Eyelash_Opacity.jpg
+map_Bump -bm 1.000000 /Volumes/Extreme SSD/مشاريعي/مشروع التخرج /hda/HDA/HDA.fbm/Std_Eyelash_Normal.png
+
+newmtl Std_Lower_Teeth.004
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+Pr 0.500000
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd /Volumes/Extreme SSD/مشاريعي/مشروع التخرج /hda/HDA/HDA.fbm/Std_Lower_Teeth_Diffuse.png
+
+newmtl Std_Nails.004
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+Pr 0.552786
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd /Volumes/Extreme SSD/مشاريعي/مشروع التخرج /hda/HDA/HDA.fbm/Std_Nails_Diffuse.jpg
+map_Bump /Volumes/Extreme SSD/مشاريعي/مشروع التخرج /hda/HDA/HDA.fbm/Std_Nails_Normal.png
+
+newmtl Std_Skin_Arm.004
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+Pr 0.552786
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd /Volumes/Extreme SSD/مشاريعي/مشروع التخرج /hda/HDA/HDA.fbm/Std_Skin_Arm_Diffuse.jpg
+map_Bump -bm 1.000000 /Volumes/Extreme SSD/مشاريعي/مشروع التخرج /hda/HDA/HDA.fbm/Std_Skin_Arm_Normal.png
+
+newmtl Std_Skin_Body.004
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+Pr 0.552786
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd /Volumes/Extreme SSD/مشاريعي/مشروع التخرج /hda/HDA/HDA.fbm/Std_Skin_Body_Diffuse.jpg
+map_Bump -bm 1.000000 /Volumes/Extreme SSD/مشاريعي/مشروع التخرج /hda/HDA/HDA.fbm/Std_Skin_Body_Normal.png
+
+newmtl Std_Skin_Head.004
+Ks 0.309091 0.309091 0.309091
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+Pr 0.552786
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd /Volumes/Extreme SSD/مشاريعي/مشروع التخرج /hda/HDA/HDA.fbm/Std_Skin_Head_Diffuse.jpg
+map_Bump -bm 1.000000 /Volumes/Extreme SSD/مشاريعي/مشروع التخرج /hda/HDA/HDA.fbm/Std_Skin_Head_Normal.png
+
+newmtl Std_Skin_Leg.004
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+Pr 0.552786
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd /Volumes/Extreme SSD/مشاريعي/مشروع التخرج /hda/HDA/HDA.fbm/Std_Skin_Leg_Diffuse.jpg
+map_Bump -bm 1.000000 /Volumes/Extreme SSD/مشاريعي/مشروع التخرج /hda/HDA/HDA.fbm/Std_Skin_Leg_Normal.png
+
+newmtl Std_Tearline_L.004
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+Pr 0.900000
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd /Volumes/Extreme SSD/مشاريعي/مشروع التخرج /hda/HDA/HDA.fbm/Std_Tearline_L_Diffuse.jpg
+map_d /Volumes/Extreme SSD/مشاريعي/مشروع التخرج /hda/HDA/HDA.fbm/Std_Tearline_R_Opacity.jpg
+
+newmtl Std_Tearline_R.004
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+Pr 0.900000
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd /Volumes/Extreme SSD/مشاريعي/مشروع التخرج /hda/HDA/HDA.fbm/Std_Tearline_R_Diffuse.jpg
+map_d /Volumes/Extreme SSD/مشاريعي/مشروع التخرج /hda/HDA/HDA.fbm/Std_Tearline_R_Opacity.jpg
+
+newmtl Std_Tongue.004
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+Pr 0.858579
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd /Volumes/Extreme SSD/مشاريعي/مشروع التخرج /hda/HDA/HDA.fbm/Std_Tongue_Diffuse.jpg
+map_Bump -bm 1.000000 /Volumes/Extreme SSD/مشاريعي/مشروع التخرج /hda/HDA/HDA.fbm/Std_Tongue_Normal.jpg
+
+newmtl Std_Upper_Teeth.004
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+Pr 0.500000
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd /Volumes/Extreme SSD/مشاريعي/مشروع التخرج /hda/HDA/HDA.fbm/Std_Upper_Teeth_Diffuse.jpg
+
+newmtl Toon_Eyebrows_Transparency.003
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+Pr 0.683772
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd /Volumes/Extreme SSD/مشاريعي/مشروع التخرج /hda/HDA/HDA.fbm/Toon_Eyebrows_Transparency_Diffuse.png
