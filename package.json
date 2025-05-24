@@ -32,8 +32,8 @@
     "typescript": "^5.7.2"
   },
   "optionalDependencies": {
-    "@react-three/drei": "^9.122.0",
-    "@react-three/fiber": "^8.18.0",
+    "@react-three/drei": "^9.88.17",
+    "@react-three/fiber": "^8.15.12",
     "@types/three": "^0.169.0",
     "three": "^0.169.0"
   },
