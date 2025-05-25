@@ -615,29 +615,29 @@ export default function PrintablesGrid() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.5 }}
       >
-        <div className="bg-gradient-orange rounded-3xl p-8 shadow-xl text-white">
+        <div className="bg-gradient-to-r from-[#e4592d] to-[#f2a71e] rounded-3xl p-8 shadow-xl text-white">
           <div className="text-4xl mb-4">📬</div>
           <h3 className="text-2xl font-bold mb-4">
             احصل على المطبوعات الجديدة أولاً!
           </h3>
-          <p className="mb-6 opacity-90 max-w-2xl mx-auto">
+          <p className="mb-6 max-w-2xl mx-auto">
             اشترك في نشرتنا البريدية للحصول على أحدث المطبوعات والموارد التعليمية مجاناً
           </p>
           <div className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
             <input
               type="email"
               placeholder="أدخل بريدك الإلكتروني"
-              className="flex-1 px-4 py-3 rounded-xl text-gray-800 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-white/50"
+              className="flex-1 px-4 py-3 rounded-xl text-[#2a345c] placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-white/50 bg-white"
             />
             <motion.button
-              className="bg-white text-primary-500 px-6 py-3 rounded-xl font-semibold hover:bg-gray-100 transition-colors"
+              className="bg-[#2a345c] text-white px-6 py-3 rounded-xl font-semibold hover:bg-[#1d2440] transition-colors shadow-lg"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
               اشترك الآن
             </motion.button>
           </div>
-          <p className="text-xs opacity-75 mt-4">
+          <p className="text-sm mt-4">
             لن نشارك بريدك الإلكتروني مع أي جهة خارجية
           </p>
         </div>
